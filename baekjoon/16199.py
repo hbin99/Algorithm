@@ -1,31 +1,3 @@
-# A = list(map(int,input().split())) #태어난 년 월 일 2003 3 5
-# B = list(map(int,input().split()))  #기준 날짜 2003 4 5
-#
-# M = 0
-# S = 1
-# Y = 0
-#
-# if A[0] == B[0]:
-#     M = 0
-#     S = 1
-#     Y = 0
-# elif A[0] < B[0]:
-#     if A[1] <= B[1]:
-#         if A[2] <= B[2]:
-#             M = B[0]-A[0]
-#         else:
-#             M = B[0] - A[0] - 1
-#     elif B[0]-A[0] == 1:
-#         M = 0 # 생일이 안지남
-#     elif B[0]-A[0] > 1 and A[1] > B[1]:
-#         M = B[0]-A[0] - 1
-#     S = S + (B[0]-A[0])
-#     Y = B[0]-A[0]
-#
-# print(M)
-# print(S)
-# print(Y)
-
 a,b,c=map(int, input().split())
 x,y,z=map(int, input().split())
 if(x==a):#0살인가
