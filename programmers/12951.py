@@ -1,7 +1,6 @@
 def solution(s):
     answer = ''
     arr = list(s.lower())
-    str =""
     flag = True
     for i in range(len(arr)):
         if flag and arr[i] != " " :
